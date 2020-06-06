@@ -1,0 +1,214 @@
+{
+	"info": {
+		"_postman_id": "f67c6a44-ce66-4a7a-83e3-9b8ed4368253",
+		"name": "Postman_SDET",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add_Details",
+			"item": [
+				{
+					"name": "Add_Details",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "398cc859-e30a-4b59-bf6c-8ea202b3cfcc",
+								"exec": [
+									"pm.test(\"Successful POST request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([201,202]);\r",
+									"});\r",
+									"\r",
+									"tests[\"validate that response Contains Name \"] = responseBody.has(\"morpheus\");\r",
+									"tests[\"validate that response Contains Job \"] = responseBody.has(\"leader\");"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"morpheus\",\r\n    \"job\": \"leader\"\r\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": "{{url}}api/users"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Update_Details",
+			"item": [
+				{
+					"name": "Update_details",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "a8403e58-0e20-4e6e-9107-8406570d84e9",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"tests[\"Validate that name is update\"] = responseBody.has(\"morpheus\");\r",
+									"tests[\"Validate that job is update\"] = responseBody.has(\"associate\");"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"morpheus\",\r\n    \"job\": \"associate\"\r\n}",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": "{{url}}api/users/2"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Query_Fetch",
+			"item": [
+				{
+					"name": "Query",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "f273fd8d-1144-4a5f-8aea-8bcafc9906a3",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "c91a09ac-7925-4155-8f4a-133c7df54274",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}api/users?page={{Input_Query}}",
+							"host": [
+								"{{url}}api"
+							],
+							"path": [
+								"users"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "{{Input_Query}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Path_Fetch",
+			"item": [
+				{
+					"name": "Path",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "142d9a7c-6562-4c81-b308-17d0caf18f05",
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{url}}api/users/{{Input_Path}}"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "b34e90c2-fc1c-4448-935c-b57046c02d82",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "b717eadb-4540-4042-83c3-11b24e8f8973",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "0c93b0d7-120d-4993-9aaf-5b16c29cb33b",
+			"key": "url",
+			"value": "https://reqres.in/",
+			"type": "string"
+		}
+	],
+	"protocolProfileBehavior": {}
+}
