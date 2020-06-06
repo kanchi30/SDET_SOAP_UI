@@ -1,0 +1,172 @@
+Generating Script logs for SOAP UI....
+Sat Jun 06 21:33:06 IST 2020:INFO:Adding [C:\Program Files (x86)\SmartBear\SoapUI-5.5.0\bin\ext\jxl.jar] to extensions classpath
+Sat Jun 06 21:33:06 IST 2020:INFO:initialized soapui-settings from [C:\Users\khand\soapui-settings.xml]
+Sat Jun 06 21:33:08 IST 2020:INFO:Adding plugin from [C:\Users\khand\.soapuios\plugins\readyapi-postman-1.0.1.jar]
+Sat Jun 06 21:33:08 IST 2020:INFO:Adding plugin from [C:\Users\khand\.soapuios\plugins\ready-uxm-plugin-1.0.1-dist.jar]
+Sat Jun 06 21:33:09 IST 2020:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+Sat Jun 06 21:33:09 IST 2020:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+Sat Jun 06 21:33:09 IST 2020:INFO:Adding plugin from [C:\Users\khand\.soapuios\plugins\soapui-swagger-plugin-2.2-dist.jar]
+Sat Jun 06 21:33:09 IST 2020:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+Added AutoFactory for [PluginPrefs]
+Sat Jun 06 21:33:09 IST 2020:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+Sat Jun 06 21:33:09 IST 2020:INFO:Adding plugin from [C:\Users\khand\.soapuios\plugins\ready-mqtt-plugin-dist.jar]
+Sat Jun 06 21:33:10 IST 2020:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+Sat Jun 06 21:33:10 IST 2020:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+Sat Jun 06 21:33:10 IST 2020:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+Sat Jun 06 21:33:10 IST 2020:INFO:Adding plugin from [C:\Users\khand\.soapuios\plugins\readyapi-swaggerhub-plugin-1.0.jar]
+Added AutoFactory for [PluginPanelBuilder]
+Added AutoFactory for [PluginPanelBuilder]
+Added AutoFactory for [PluginPanelBuilder]
+Sat Jun 06 21:33:10 IST 2020:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+Added AutoFactory for [PluginTestStep]
+Added AutoFactory for [PluginTestStep]
+Added AutoFactory for [PluginTestStep]
+Sat Jun 06 21:33:10 IST 2020:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+Sat Jun 06 21:33:10 IST 2020:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+Sat Jun 06 21:33:10 IST 2020:INFO:5 plugins loaded in 2199 ms
+Sat Jun 06 21:33:10 IST 2020:INFO:All plugins loaded
+Sat Jun 06 21:33:11 IST 2020:INFO:Adding [C:\Program Files (x86)\SmartBear\SoapUI-5.5.0\bin\ext\jxl.jar] to extensions classpath
+Sat Jun 06 21:33:11 IST 2020:INFO:initialized soapui-settings from [C:\Users\khand\soapui-settings.xml]
+Sat Jun 06 21:33:11 IST 2020:INFO:Adding plugin from [C:\Users\khand\.soapuios\plugins\readyapi-postman-1.0.1.jar]
+Sat Jun 06 21:33:11 IST 2020:INFO:Adding plugin from [C:\Users\khand\.soapuios\plugins\ready-uxm-plugin-1.0.1-dist.jar]
+Sat Jun 06 21:33:12 IST 2020:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+Sat Jun 06 21:33:12 IST 2020:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+Sat Jun 06 21:33:12 IST 2020:INFO:Adding plugin from [C:\Users\khand\.soapuios\plugins\soapui-swagger-plugin-2.2-dist.jar]
+Sat Jun 06 21:33:12 IST 2020:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+Added AutoFactory for [PluginPrefs]
+Sat Jun 06 21:33:12 IST 2020:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+Sat Jun 06 21:33:12 IST 2020:INFO:Adding plugin from [C:\Users\khand\.soapuios\plugins\ready-mqtt-plugin-dist.jar]
+Sat Jun 06 21:33:13 IST 2020:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+Sat Jun 06 21:33:13 IST 2020:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+Sat Jun 06 21:33:13 IST 2020:INFO:Adding plugin from [C:\Users\khand\.soapuios\plugins\readyapi-swaggerhub-plugin-1.0.jar]
+Sat Jun 06 21:33:13 IST 2020:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+Added AutoFactory for [PluginPanelBuilder]
+Added AutoFactory for [PluginPanelBuilder]
+Added AutoFactory for [PluginPanelBuilder]
+Sat Jun 06 21:33:13 IST 2020:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+Added AutoFactory for [PluginTestStep]
+Added AutoFactory for [PluginTestStep]
+Added AutoFactory for [PluginTestStep]
+Sat Jun 06 21:33:14 IST 2020:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+Sat Jun 06 21:33:14 IST 2020:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+Sat Jun 06 21:33:14 IST 2020:INFO:5 plugins loaded in 2303 ms
+Sat Jun 06 21:33:14 IST 2020:INFO:All plugins loaded
+Sat Jun 06 21:33:14 IST 2020:INFO:Loading workspace from [C:\Users\khand\default-soapui-workspace.xml]
+Sat Jun 06 21:33:14 IST 2020:INFO:File [C:\Users\khand\Desktop\REST-Project-1-soapui-project1.xml] does not exist, trying URL instead
+Sat Jun 06 21:33:14 IST 2020:ERROR:An error occurred [unknown protocol: c], see error log for details
+Sat Jun 06 21:33:14 IST 2020:INFO:Used java version: 1.8.0_181
+Scheduling garbage collection every 60 seconds
+Sat Jun 06 21:33:41 IST 2020:INFO:Loaded project from [file:/C:/Users/khand/Desktop/SoapUI/REST-Project-1-soapui-project1.xml]
+Sat Jun 06 21:33:41 IST 2020:INFO:Saved workspace to [C:\Users\khand\default-soapui-workspace.xml]
+Sat Jun 06 21:34:21 IST 2020:INFO:Saved project [REST Project 1] to [C:\Users\khand\Desktop\SoapUI\REST-Project-1-soapui-project1.xml - 31260 bytes
+Sat Jun 06 21:34:50 IST 2020:INFO:Saved project [REST Project 1] to [C:\Users\khand\Desktop\SoapUI\REST-Project-1-soapui-project1.xml - 31268 bytes
+Sat Jun 06 21:34:52 IST 2020:INFO:Saved project [REST Project 1] to [C:\Users\khand\Desktop\SoapUI\REST-Project-1-soapui-project1.xml - 31268 bytes
+Sat Jun 06 21:34:52 IST 2020:INFO:Saved workspace to [C:\Users\khand\default-soapui-workspace.xml]
+Sat Jun 06 21:37:21 IST 2020:INFO:Saved project [REST Project 1] to [C:\Users\khand\Desktop\SoapUI\REST-Project-1-soapui-project1.xml - 31392 bytes
+Sat Jun 06 21:37:21 IST 2020:INFO:Saved workspace to [C:\Users\khand\default-soapui-workspace.xml]
+Sat Jun 06 21:37:30 IST 2020:DEBUG:Attempt 1 to execute request
+Sat Jun 06 21:37:30 IST 2020:DEBUG:Sending request: GET /api/users?page=1 HTTP/1.1
+Sat Jun 06 21:37:30 IST 2020:DEBUG:Receiving response: HTTP/1.1 200 OK
+Sat Jun 06 21:37:30 IST 2020:DEBUG:Connection can be kept alive indefinitely
+Sat Jun 06 21:37:31 IST 2020:DEBUG:Stale connection check
+Sat Jun 06 21:37:31 IST 2020:DEBUG:Attempt 1 to execute request
+Sat Jun 06 21:37:31 IST 2020:DEBUG:Sending request: GET /api/users?page=2 HTTP/1.1
+Sat Jun 06 21:37:31 IST 2020:DEBUG:Receiving response: HTTP/1.1 200 OK
+Sat Jun 06 21:37:31 IST 2020:DEBUG:Connection can be kept alive indefinitely
+Sat Jun 06 21:37:31 IST 2020:DEBUG:Stale connection check
+Sat Jun 06 21:37:31 IST 2020:DEBUG:Attempt 1 to execute request
+Sat Jun 06 21:37:31 IST 2020:DEBUG:Sending request: GET /api/users?page=3 HTTP/1.1
+Sat Jun 06 21:37:31 IST 2020:DEBUG:Receiving response: HTTP/1.1 200 OK
+Sat Jun 06 21:37:31 IST 2020:DEBUG:Connection can be kept alive indefinitely
+Sat Jun 06 21:37:32 IST 2020:DEBUG:Stale connection check
+Sat Jun 06 21:37:32 IST 2020:DEBUG:Attempt 1 to execute request
+Sat Jun 06 21:37:32 IST 2020:DEBUG:Sending request: GET /api/users?page=4 HTTP/1.1
+Sat Jun 06 21:37:32 IST 2020:DEBUG:Receiving response: HTTP/1.1 200 OK
+Sat Jun 06 21:37:32 IST 2020:DEBUG:Connection can be kept alive indefinitely
+Sat Jun 06 21:37:32 IST 2020:ERROR:An error occurred [C:\Users\khand\Desktop\SoapUI\Query\TestSuite1-SOAPUILogs.txt (The system cannot find the path specified)], see error log for details
+Sat Jun 06 21:37:32 IST 2020:DEBUG:Stale connection check
+Sat Jun 06 21:37:32 IST 2020:DEBUG:Attempt 1 to execute request
+Sat Jun 06 21:37:32 IST 2020:DEBUG:Sending request: GET /api/users/2 HTTP/1.1
+Sat Jun 06 21:37:32 IST 2020:DEBUG:Receiving response: HTTP/1.1 200 OK
+Sat Jun 06 21:37:32 IST 2020:DEBUG:Connection can be kept alive indefinitely
+Sat Jun 06 21:37:33 IST 2020:ERROR:An error occurred [C:\Users\khand\Desktop\SoapUI\path\TestSuite1-SOAPUILogs.txt (The system cannot find the path specified)], see error log for details
+Sat Jun 06 21:37:33 IST 2020:DEBUG:Stale connection check
+Sat Jun 06 21:37:33 IST 2020:DEBUG:Attempt 1 to execute request
+Sat Jun 06 21:37:33 IST 2020:DEBUG:Sending request: POST /api/users HTTP/1.1
+Sat Jun 06 21:37:34 IST 2020:DEBUG:Receiving response: HTTP/1.1 201 Created
+Sat Jun 06 21:37:34 IST 2020:DEBUG:Connection can be kept alive indefinitely
+Sat Jun 06 21:37:34 IST 2020:ERROR:An error occurred [C:\Users\khand\Desktop\SoapUI\Add\TestSuite1-SOAPUILogs.txt (The system cannot find the path specified)], see error log for details
+Sat Jun 06 21:37:34 IST 2020:DEBUG:Stale connection check
+Sat Jun 06 21:37:34 IST 2020:DEBUG:Attempt 1 to execute request
+Sat Jun 06 21:37:34 IST 2020:DEBUG:Sending request: PUT /api/users/%7BInput%7D HTTP/1.1
+Sat Jun 06 21:37:34 IST 2020:DEBUG:Receiving response: HTTP/1.1 200 OK
+Sat Jun 06 21:37:34 IST 2020:DEBUG:Connection can be kept alive indefinitely
+Sat Jun 06 21:37:35 IST 2020:ERROR:An error occurred [C:\Users\khand\Desktop\SoapUI\Update\TestSuite1-SOAPUILogs.txt (The system cannot find the path specified)], see error log for details
+Sat Jun 06 21:37:46 IST 2020:ERROR:An error occurred [C:\Users\khand\Desktop\SoapUI\path\TestSuite1-SOAPUILogs.txt (The system cannot find the path specified)], see error log for details
+Sat Jun 06 21:38:07 IST 2020:DEBUG:Connection closed
+Sat Jun 06 21:38:38 IST 2020:DEBUG:Attempt 1 to execute request
+Sat Jun 06 21:38:38 IST 2020:DEBUG:Sending request: GET /api/users?page=1 HTTP/1.1
+Sat Jun 06 21:38:39 IST 2020:DEBUG:Receiving response: HTTP/1.1 200 OK
+Sat Jun 06 21:38:39 IST 2020:DEBUG:Connection can be kept alive indefinitely
+Sat Jun 06 21:38:39 IST 2020:DEBUG:Stale connection check
+Sat Jun 06 21:38:39 IST 2020:DEBUG:Attempt 1 to execute request
+Sat Jun 06 21:38:39 IST 2020:DEBUG:Sending request: GET /api/users?page=2 HTTP/1.1
+Sat Jun 06 21:38:39 IST 2020:DEBUG:Receiving response: HTTP/1.1 200 OK
+Sat Jun 06 21:38:39 IST 2020:DEBUG:Connection can be kept alive indefinitely
+Sat Jun 06 21:38:40 IST 2020:DEBUG:Stale connection check
+Sat Jun 06 21:38:40 IST 2020:DEBUG:Attempt 1 to execute request
+Sat Jun 06 21:38:40 IST 2020:DEBUG:Sending request: GET /api/users?page=3 HTTP/1.1
+Sat Jun 06 21:38:40 IST 2020:DEBUG:Receiving response: HTTP/1.1 200 OK
+Sat Jun 06 21:38:40 IST 2020:DEBUG:Connection can be kept alive indefinitely
+Sat Jun 06 21:38:40 IST 2020:DEBUG:Stale connection check
+Sat Jun 06 21:38:40 IST 2020:DEBUG:Attempt 1 to execute request
+Sat Jun 06 21:38:40 IST 2020:DEBUG:Sending request: GET /api/users?page=4 HTTP/1.1
+Sat Jun 06 21:38:40 IST 2020:DEBUG:Receiving response: HTTP/1.1 200 OK
+Sat Jun 06 21:38:40 IST 2020:DEBUG:Connection can be kept alive indefinitely
+Sat Jun 06 21:38:40 IST 2020:DEBUG:Stale connection check
+Sat Jun 06 21:38:40 IST 2020:DEBUG:Attempt 1 to execute request
+Sat Jun 06 21:38:40 IST 2020:DEBUG:Sending request: GET /api/users/2 HTTP/1.1
+Sat Jun 06 21:38:41 IST 2020:DEBUG:Receiving response: HTTP/1.1 200 OK
+Sat Jun 06 21:38:41 IST 2020:DEBUG:Connection can be kept alive indefinitely
+Sat Jun 06 21:38:42 IST 2020:DEBUG:Stale connection check
+Sat Jun 06 21:38:42 IST 2020:DEBUG:Attempt 1 to execute request
+Sat Jun 06 21:38:42 IST 2020:DEBUG:Sending request: POST /api/users HTTP/1.1
+Sat Jun 06 21:38:42 IST 2020:DEBUG:Receiving response: HTTP/1.1 201 Created
+Sat Jun 06 21:38:42 IST 2020:DEBUG:Connection can be kept alive indefinitely
+Sat Jun 06 21:38:42 IST 2020:DEBUG:Stale connection check
+Sat Jun 06 21:38:42 IST 2020:DEBUG:Attempt 1 to execute request
+Sat Jun 06 21:38:42 IST 2020:DEBUG:Sending request: PUT /api/users/%7BInput%7D HTTP/1.1
+Sat Jun 06 21:38:43 IST 2020:DEBUG:Receiving response: HTTP/1.1 200 OK
+Sat Jun 06 21:38:43 IST 2020:DEBUG:Connection can be kept alive indefinitely
+Sat Jun 06 21:38:49 IST 2020:INFO:Saved project [REST Project 1] to [C:\Users\khand\Desktop\SoapUI\REST-Project-1-soapui-project1.xml - 31392 bytes
+Sat Jun 06 21:38:49 IST 2020:INFO:Saved workspace to [C:\Users\khand\default-soapui-workspace.xml]
+Sat Jun 06 21:39:17 IST 2020:DEBUG:Connection closed
+Sat Jun 06 21:39:29 IST 2020:INFO:Saved project [REST Project 1] to [C:\Users\khand\Desktop\SoapUI\REST-Project-1-soapui-project1.xml - 31392 bytes
+Sat Jun 06 21:39:29 IST 2020:INFO:Saved workspace to [C:\Users\khand\default-soapui-workspace.xml]
+Sat Jun 06 21:40:02 IST 2020:INFO:Saved project [REST Project 1] to [C:\Users\khand\Desktop\SoapUI\REST-Project-1-soapui-project1.xml - 31392 bytes
+Sat Jun 06 21:40:07 IST 2020:INFO:Loaded project from [file:/C:/Users/khand/Desktop/SoapUI/REST-Project-1-soapui-project1.xml]
+Sat Jun 06 21:40:07 IST 2020:INFO:Saved workspace to [C:\Users\khand\default-soapui-workspace.xml]
+Sat Jun 06 21:40:11 IST 2020:DEBUG:Attempt 1 to execute request
+Sat Jun 06 21:40:11 IST 2020:DEBUG:Sending request: GET /api/users?page=1 HTTP/1.1
+Sat Jun 06 21:40:11 IST 2020:DEBUG:Receiving response: HTTP/1.1 200 OK
+Sat Jun 06 21:40:11 IST 2020:DEBUG:Connection can be kept alive indefinitely
+Sat Jun 06 21:40:12 IST 2020:DEBUG:Stale connection check
+Sat Jun 06 21:40:12 IST 2020:DEBUG:Attempt 1 to execute request
+Sat Jun 06 21:40:12 IST 2020:DEBUG:Sending request: GET /api/users?page=2 HTTP/1.1
+Sat Jun 06 21:40:12 IST 2020:DEBUG:Receiving response: HTTP/1.1 200 OK
+Sat Jun 06 21:40:12 IST 2020:DEBUG:Connection can be kept alive indefinitely
+Sat Jun 06 21:40:12 IST 2020:DEBUG:Stale connection check
+Sat Jun 06 21:40:12 IST 2020:DEBUG:Attempt 1 to execute request
+Sat Jun 06 21:40:12 IST 2020:DEBUG:Sending request: GET /api/users?page=3 HTTP/1.1
+Sat Jun 06 21:40:12 IST 2020:DEBUG:Receiving response: HTTP/1.1 200 OK
+Sat Jun 06 21:40:12 IST 2020:DEBUG:Connection can be kept alive indefinitely
+Sat Jun 06 21:40:13 IST 2020:DEBUG:Stale connection check
+Sat Jun 06 21:40:13 IST 2020:DEBUG:Attempt 1 to execute request
+Sat Jun 06 21:40:13 IST 2020:DEBUG:Sending request: GET /api/users?page=4 HTTP/1.1
+Sat Jun 06 21:40:13 IST 2020:DEBUG:Receiving response: HTTP/1.1 200 OK
+Sat Jun 06 21:40:13 IST 2020:DEBUG:Connection can be kept alive indefinitely
+Sat Jun 06 21:40:13 IST 2020:DEBUG:Stale connection check
+Sat Jun 06 21:40:13 IST 2020:DEBUG:Attempt 1 to execute request
+Sat Jun 06 21:40:13 IST 2020:DEBUG:Sending request: GET /api/users/2 HTTP/1.1
+Sat Jun 06 21:40:13 IST 2020:DEBUG:Receiving response: HTTP/1.1 200 OK
+Sat Jun 06 21:40:13 IST 2020:DEBUG:Connection can be kept alive indefinitely

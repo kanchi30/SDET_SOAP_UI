@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="977ef9dc-793c-4896-9fa1-cfa0b2597db3" activeEnvironment="Default" name="REST Project 1" resourceRoot="" soapui-version="5.5.0" abortOnError="false" runType="PARALLELL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="fd294819-a83a-431d-8f66-85be35d49f00" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://reqres.in" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>http://LAPTOP-67974783:8089/</con:endpoint><con:endpoint>https://reqres.in</con:endpoint></con:endpoints><con:resource name="Users" path="/api/users" id="b0f2ac63-e8a8-4c37-b8a3-91e12dcba239"><con:settings/><con:parameters><con:parameter><con:name>page</con:name><con:value/><con:style>QUERY</con:style><con:default/><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Users 1" id="7f2d09dd-4b07-4b17-8883-f1a895e73971" method="GET"><con:settings><con:setting id="RecordResponseRepresentations">true</con:setting></con:settings><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:user="https://reqres.in/api/users">user:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>404</con:status><con:params/><con:element>Fault</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="2b391ebd-cb41-4dad-a858-4b423acec121" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://reqres.in</con:endpoint><con:request/><con:originalUri>https://reqres.in/api/users</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="page" value="2" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>page</con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="3536dfb1-9df4-4491-aa11-8e3151f0bc51" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://reqres.in" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>https://reqres.in</con:endpoint></con:endpoints><con:resource name="Input" path="/api/users/{Input}" id="9e8d9113-f5c7-45ba-884c-23464ab1e30c"><con:settings/><con:parameters><con:parameter><con:name>Input</con:name><con:value>Input</con:value><con:style>TEMPLATE</con:style><con:default>Input</con:default><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Input 1" id="51a642d8-bf97-438b-af22-ee9778c2a21e" method="GET"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>404</con:status><con:params/><con:element>Fault</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:inp="https://reqres.in/api/users/Input">inp:Response</con:element></con:representation><con:request name="Request 1" id="40266663-8bba-4ecf-a608-0d2dc2a46517" mediaType="application/json"><con:settings/><con:endpoint>https://reqres.in</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Input" value="Input" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Input</con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="51b3546a-a289-463f-8852-9eac89008cb8" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://reqres.in" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>http://LAPTOP-67974783:8080/</con:endpoint><con:endpoint>http://LAPTOP-67974783:8089/</con:endpoint><con:endpoint>https://reqres.in</con:endpoint></con:endpoints><con:resource name="Users" path="" id="8455080a-09b9-42cc-a93c-e271fc25e7e0"><con:settings/><con:parameters/><con:method name="Users 1" id="23f0dce2-c8cc-4492-918d-07f55405de12" method="POST"><con:settings/><con:parameters><con:parameter><con:name>name</con:name><con:value>ptr</con:value><con:style>QUERY</con:style><con:default>ptr</con:default></con:parameter><con:parameter><con:name>job</con:name><con:value>fff</con:value><con:style>QUERY</con:style><con:default>fff</con:default></con:parameter></con:parameters><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>201</con:status><con:params/><con:element xmlns:user="https://reqres.in/api/users">user:Response</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType>text/html; charset=utf-8</con:mediaType><con:status>400</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>text/html; charset=iso-8859-1</con:mediaType><con:status>200</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>text/html; iso-8859-1</con:mediaType><con:status>200</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/x-www-form-urlencoded</con:mediaType><con:params/></con:representation><con:representation type="REQUEST"><con:mediaType>multipart/form-data</con:mediaType><con:params/></con:representation><con:request name="Request 1" id="3811ee41-db5b-43b4-b72b-e3df00f69016" mediaType="application/x-www-form-urlencoded" postQueryString="true"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://reqres.in/api/users</con:endpoint><con:request>{
+    "name": "he",
+    "job": "leader"
+}</con:request><con:originalUri>https://reqres.in/api/users</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="name" value="morerpheus"/>
+  <con:entry key="job" value="leader"/>
+</con:parameters><con:parameterOrder><con:entry>name</con:entry><con:entry>job</con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="d05c5895-0b63-4c42-9124-cc5e72c4e578" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://reqres.in" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>https://reqres.in</con:endpoint></con:endpoints><con:resource name="Input" path="" id="0e65933b-8421-45bf-994b-369b29f08a24"><con:settings/><con:parameters><con:parameter><con:name>name</con:name><con:value>prajwal</con:value><con:style>TEMPLATE</con:style><con:default>prajwal</con:default><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Input 1" id="6616d301-9048-4d1f-952d-441b0975c00e" method="PUT"><con:settings/><con:parameters><con:parameter><con:name>name</con:name><con:value>morpheus</con:value><con:style>QUERY</con:style><con:default>morpheus</con:default></con:parameter><con:parameter><con:name>job </con:name><con:style>QUERY</con:style></con:parameter></con:parameters><con:representation type="RESPONSE"><con:mediaType>application/json; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:inp="https://reqres.in/api/users/Input">inp:Response</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="REQUEST"><con:mediaType>application/x-www-form-urlencoded</con:mediaType><con:params/></con:representation><con:request name="Request 1" id="8c99b27d-37fa-4f8c-9387-43dcda4e84ae" mediaType="application/x-www-form-urlencoded" postQueryString="true"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://reqres.in/api/users/{Input}</con:endpoint><con:request>{
+    "name": "prajwal",
+    "job": "zion resident"
+}</con:request><con:originalUri>https://reqres.in/api/users/Input</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="name" value="" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>name</con:entry><con:entry>job </con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="8147090e-bde5-445b-8fde-5148f124a7a0" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://reqres.in" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>https://reqres.in</con:endpoint></con:endpoints><con:resource name="Input" path="/api/users/{Input}" id="f8c7d3ad-2b27-4eaa-9cdc-e2f112172090"><con:settings/><con:parameters><con:parameter><con:name>Input</con:name><con:value>Input</con:value><con:style>TEMPLATE</con:style><con:default>Input</con:default><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Input 1" id="232eb680-70ac-4c7a-b4d8-dfca96458be5" method="DELETE"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>204</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="7f7b7675-b89c-4e78-bcec-4a27e08c5d14" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://reqres.in</con:endpoint><con:request/><con:originalUri>https://reqres.in/api/users/Input</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Input" value="Input" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Input</con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:testSuite id="02ae9c15-d093-4bd7-946f-f7e92115fd7f" name="TestSuite1"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="e13a9737-8dac-4fa6-ad94-0f3e88a2aa8b" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="QueryParameter" searchProperties="true"><con:settings/><con:testStep type="groovy" name="QueryScript" id="26ab7fd1-3568-4ebd-8987-9c7c26fc13cf"><con:settings/><con:config><script>// IMPORT THE LIBRARIES WE NEED
+
+import com.eviware.soapui.support.XmlHolder
+import jxl.*
+import jxl.write.*
+
+// DECLARE THE VARIABLES
+
+def myTestCase = context.testCase //myTestCase contains the test case
+
+def counter,next,previous,size //Variables used to handle the loop and to move inside the file
+
+Workbook workbook1 = Workbook.getWorkbook(new File("C:\\Users\\khand\\Desktop\\SoapUI\\QueryTest.xls")) //file containing the data
+
+Sheet sheet1 = workbook1.getSheet(0) //Index 0 will read the first sheet from the workbook, you can also specify the sheet name with "Sheet1"
+//Sheet sheet1 = workbook1.getSheet("Sheet1")
+
+size= sheet1.getRows().toInteger() //get the number of rows, each row is a data set
+
+propTestStep = myTestCase.getTestStepByName("Properties") // get the Property TestStep object
+
+propTestStep.setPropertyValue("Total", size.toString())
+log.info (propTestStep.getPropertyValue("Total"))
+
+counter = propTestStep.getPropertyValue("Count").toString() //counter variable contains iteration number
+
+counter = counter.toInteger()
+log.info("counter:" + counter)
+next = (counter > size-2? 0: counter+1) //set the next value
+log.info (next)
+// OBTAINING THE DATA YOU NEED
+log.info("counter:" +counter)
+Cell f1 = sheet1.getCell(0,counter) // getCell(column,row) //obtains field1
+
+//Cell f2 = sheet1.getCell(1,counter) // getCell(column,row) //obtains field2
+
+workbook1.close() //close the file
+
+////////////////////////////////////
+
+field1 = f1.getContents()
+log.info ("Field " + field1)
+//field2 = f2.getContents()
+
+propTestStep.setPropertyValue("page", field1) //the value is saved in the property
+//propTestStep.setPropertyValue("Field2", field2) //the value is saved in the property
+
+propTestStep.setPropertyValue("Count", next.toString()) //increase Count value
+
+next++ //increase next value
+
+propTestStep.setPropertyValue("Next", next.toString()) //set Next value on the properties step
+
+//Decide if the test has to be run again or not
+
+if (counter == size-1)
+
+{
+propTestStep.setPropertyValue("StopVal", "T")
+
+log.info "Setting the StopVal property now..."
+
+}
+
+else if (counter==0)
+
+{
+
+def runner = new com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner(testRunner.testCase, null)
+
+propTestStep.setPropertyValue("StopVal", "F")
+
+}
+
+else
+
+{
+
+propTestStep.setPropertyValue("StopVal", "F")
+
+}
+
+</script></con:config></con:testStep><con:testStep type="restrequest" name="Users 1 - Request 1" id="03a926c0-189c-44d1-a1a7-fe76d459f804"><con:settings/><con:config service="https://reqres.in" resourcePath="/api/users" methodName="Users 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Users 1 - Request 1" id="2b391ebd-cb41-4dad-a858-4b423acec121" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://reqres.in</con:endpoint><con:request/><con:originalUri>https://reqres.in/api/users</con:originalUri><con:assertion type="Simple Contains" id="ce6f78be-dc7a-40b5-8162-1e5fdcabd778" name="Contains"><con:configuration><token>page</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Simple Contains" id="05913b0d-df35-43c0-a212-9143e5b82f5b" name="${Properties#page}"><con:configuration><token/><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="page" value="${Properties#page}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>page</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="properties" name="Properties" id="8b5cb819-3496-466b-991f-a32a7e52d095"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>page</con:name><con:value>4</con:value></con:property><con:property><con:name>Count</con:name><con:value>0</con:value></con:property><con:property><con:name>Total</con:name><con:value>4</con:value></con:property><con:property><con:name>Next</con:name><con:value>1</con:value></con:property><con:property><con:name>StopVal</con:name><con:value>T</con:value></con:property><con:property><con:name>Field1</con:name><con:value/></con:property></con:properties></con:config></con:testStep><con:testStep type="groovy" name="Loop" id="4ca2bea4-3a72-4667-9665-9b3dcde4fdfa"><con:settings/><con:config><script>def myTestCase = context.testCase
+def runner
+
+propTestStep = myTestCase.getTestStepByName("Properties") // get the Property TestStep
+
+endLoop = propTestStep.getPropertyValue("StopVal").toString()
+
+if (endLoop.toString() == "T" || endLoop.toString()=="True" || endLoop.toString()=="true")
+
+{
+
+log.info ("Exit Groovy Data Source Looper")
+
+assert true
+
+}
+
+else
+
+{
+
+testRunner.gotoStepByName("QueryScript") //setStartStep
+
+}</script></con:config></con:testStep><con:testStep type="groovy" name="Groovy Script" id="39ca7193-20af-442b-8ef0-d10dce4f114f"><con:settings/><con:config><script>logArea = com.eviware.soapui.SoapUI.logMonitor.getLogArea( "SoapUI log" )
+
+//## Get TestSuite name ##//
+TSName = testRunner.testCase.testSuite.name
+
+//Get LogFile directory and Construct LogFile
+FileName = TSName + "-SOAPUILogs.txt"
+LogFile = new File(context.expand('${#Project#TestReportPath}') + FileName)
+
+LogFile.write("Generating Script logs for SOAP UI....\r\n")
+
+if(logArea !=null)
+{
+
+model = logArea.model
+if(model.size > 0) {
+for(c in 0..(model.size-1))
+{
+LogFile.append(model.getElementAt(c).toString() + "\r\n")
+}
+}
+}
+
+ </script></con:config></con:testStep><con:testStep type="groovy" name="Groovy Script http" id="6d35ef75-5560-4f81-8b4b-ee3338b8a8cc"><con:settings/><con:config><script>logArea = com.eviware.soapui.SoapUI.logMonitor.getLogArea( "http log" )
+
+//## Get TestSuite name ##//
+TSName = testRunner.testCase.testSuite.name
+
+//Get LogFile directory and Construct LogFile
+FileName = TSName + "-httpsLogs.txt"
+LogFile = new File(context.expand('${#Project#TestReportPath}') + FileName)
+
+LogFile.write("Generating Script logs for https....\r\n")
+
+if(logArea !=null)
+{
+model = logArea.model
+if(model.size > 0) {
+for(c in 0..(model.size-1))
+{
+LogFile.append(model.getElementAt(c).toString() + "\r\n")
+}
+}
+}
+
+</script></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="ed0e2fef-f4e6-4a16-a14d-1aa2d0b9a6e7" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="PathParameter" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="Input" id="6d173764-f06f-4d7a-85af-783923034984"><con:settings/><con:config service="https://reqres.in" resourcePath="/api/users/{Input}" methodName="Input 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Input" id="40266663-8bba-4ecf-a608-0d2dc2a46517" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://reqres.in</con:endpoint><con:request/><con:originalUri>https://reqres.in/api/users/Input</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="Input" value="2" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>Input</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="properties" name="Properties" id="27975f41-52da-47cd-9573-f5edf34cef58"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>Count</con:name><con:value>0</con:value></con:property><con:property><con:name>name</con:name><con:value>4</con:value></con:property><con:property><con:name>Next</con:name><con:value>1</con:value></con:property><con:property><con:name>StopVal</con:name><con:value>T</con:value></con:property><con:property><con:name>Total</con:name><con:value>4</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="groovy" name="PathScript" id="4b05d5ce-54c0-4c5d-bb16-0742dbed5dc5"><con:settings/><con:config><script>// IMPORT THE LIBRARIES WE NEED
+
+import com.eviware.soapui.support.XmlHolder
+import jxl.*
+import jxl.write.*
+
+// DECLARE THE VARIABLES
+
+def myTestCase = context.testCase //myTestCase contains the test case
+
+def counter,next,previous,size //Variables used to handle the loop and to move inside the file
+
+Workbook workbook1 = Workbook.getWorkbook(new File("C:\\Users\\khand\\Desktop\\SoapUI\\PathTest.xls")) //file containing the data
+
+Sheet sheet1 = workbook1.getSheet(0) //Index 0 will read the first sheet from the workbook, you can also specify the sheet name with "Sheet1"
+//Sheet sheet1 = workbook1.getSheet("Sheet1")
+
+size= sheet1.getRows().toInteger() //get the number of rows, each row is a data set
+
+propTestStep = myTestCase.getTestStepByName("Properties") // get the Property TestStep object
+
+propTestStep.setPropertyValue("Total", size.toString())
+log.info (propTestStep.getPropertyValue("Total"))
+
+counter = propTestStep.getPropertyValue("Count").toString() //counter variable contains iteration number
+
+counter = counter.toInteger()
+log.info("counter:" + counter)
+next = (counter > size-2? 0: counter+1) //set the next value
+log.info (next)
+// OBTAINING THE DATA YOU NEED
+log.info("counter:" +counter)
+Cell f1 = sheet1.getCell(0,counter) // getCell(column,row) //obtains field1
+
+//Cell f2 = sheet1.getCell(1,counter) // getCell(column,row) //obtains field2
+
+workbook1.close() //close the file
+
+////////////////////////////////////
+
+field1 = f1.getContents()
+log.info ("Field " + field1)
+//field2 = f2.getContents()
+
+propTestStep.setPropertyValue("name", field1) //the value is saved in the property
+//propTestStep.setPropertyValue("Field2", field2) //the value is saved in the property
+
+propTestStep.setPropertyValue("Count", next.toString()) //increase Count value
+
+next++ //increase next value
+
+propTestStep.setPropertyValue("Next", next.toString()) //set Next value on the properties step
+
+//Decide if the test has to be run again or not
+
+if (counter == size-1)
+
+{
+propTestStep.setPropertyValue("StopVal", "T")
+
+log.info "Setting the StopVal property now..."
+
+}
+
+else if (counter==0)
+
+{
+
+def runner = new com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner(testRunner.testCase, null)
+
+propTestStep.setPropertyValue("StopVal", "F")
+
+}
+
+else
+
+{
+
+propTestStep.setPropertyValue("StopVal", "F")
+
+}
+
+</script></con:config></con:testStep><con:testStep type="groovy" name="Loop" id="2f24da8e-2e77-42d9-9c21-2caebdfedaa1"><con:settings/><con:config><script>def myTestCase = context.testCase
+def runner
+
+propTestStep = myTestCase.getTestStepByName("Properties") // get the Property TestStep
+
+endLoop = propTestStep.getPropertyValue("StopVal").toString()
+
+if (endLoop.toString() == "T" || endLoop.toString()=="True" || endLoop.toString()=="true")
+
+{
+
+log.info ("Exit Groovy Data Source Looper")
+
+assert true
+
+}
+
+else
+
+{
+
+testRunner.gotoStepByName("PathScript") //setStartStep
+
+}</script></con:config></con:testStep><con:testStep type="groovy" name="Groovy Script" id="3ae1f0a1-8313-4bb8-879b-ee9d27830dd9"><con:settings/><con:config><script>logArea = com.eviware.soapui.SoapUI.logMonitor.getLogArea( "SoapUI log" )
+
+//## Get TestSuite name ##//
+TSName = testRunner.testCase.testSuite.name
+
+//Get LogFile directory and Construct LogFile
+FileName = TSName + "-SOAPUILogs.txt"
+LogFile = new File(context.expand('${#Project#TestReportPathpath}') + FileName)
+
+LogFile.write("Generating Script logs for SOAP UI....\r\n")
+
+if(logArea !=null)
+{
+
+model = logArea.model
+if(model.size > 0) {
+for(c in 0..(model.size-1))
+{
+LogFile.append(model.getElementAt(c).toString() + "\r\n")
+}
+}
+}
+
+ </script></con:config></con:testStep><con:testStep type="groovy" name="Groovy Script http" id="33725e62-63e8-4b8e-b91f-281100be35dd"><con:settings/><con:config><script>logArea = com.eviware.soapui.SoapUI.logMonitor.getLogArea( "http log" )
+
+//## Get TestSuite name ##//
+TSName = testRunner.testCase.testSuite.name
+
+//Get LogFile directory and Construct LogFile
+FileName = TSName + "-httpsLogs.txt"
+LogFile = new File(context.expand('${#Project#TestReportPathpath}') + FileName)
+
+LogFile.write("Generating Script logs for https....\r\n")
+
+if(logArea !=null)
+{
+model = logArea.model
+if(model.size > 0) {
+for(c in 0..(model.size-1))
+{
+LogFile.append(model.getElementAt(c).toString() + "\r\n")
+}
+}
+}
+
+</script></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="bcef140f-c80b-4b2c-bab6-0737ed18e80a" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Add" searchProperties="true"><con:description>TestCase generated for REST Resource [Users] located at [/api/users]</con:description><con:settings/><con:testStep type="properties" name="Properties" id="bed7fc3d-c88b-4090-a032-71f15a83fc2d"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>name</con:name><con:value>morpheus</con:value></con:property><con:property><con:name>Job</con:name><con:value>leader</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="restrequest" name="Users 1 - Request 1" id="d3b5218e-4973-4fa4-b7f1-5922f28d8e2d"><con:settings/><con:config service="https://reqres.in" resourcePath="" methodName="Users 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Users 1 - Request 1" id="3811ee41-db5b-43b4-b72b-e3df00f69016" mediaType="application/x-www-form-urlencoded" postQueryString="true"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://reqres.in/api/users</con:endpoint><con:request>{
+    "name": "he",
+    "job": "leader"
+}</con:request><con:originalUri>https://reqres.in/api/users</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="name" value="${Properties#name}"/>
+  <con:entry key="job" value="${Properties#Job}"/>
+</con:parameters><con:parameterOrder><con:entry>name</con:entry><con:entry>job</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Groovy Script" id="d5ce31d9-6297-489b-9407-7a0fa4038244"><con:settings/><con:config><script>logArea = com.eviware.soapui.SoapUI.logMonitor.getLogArea( "SoapUI log" )
+
+//## Get TestSuite name ##//
+TSName = testRunner.testCase.testSuite.name
+
+//Get LogFile directory and Construct LogFile
+FileName = TSName + "-SOAPUILogs.txt"
+LogFile = new File(context.expand('${#Project#TestReportPathAdd}') + FileName)
+
+LogFile.write("Generating Script logs for SOAP UI....\r\n")
+
+if(logArea !=null)
+{
+
+model = logArea.model
+if(model.size > 0) {
+for(c in 0..(model.size-1))
+{
+LogFile.append(model.getElementAt(c).toString() + "\r\n")
+}
+}
+}
+
+ </script></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="c8da4aeb-7e38-4639-9c0e-76b34cc2abf9" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Update" searchProperties="true"><con:description>TestCase generated for REST Resource [Input] located at [/api/users/{Input}]</con:description><con:settings/><con:testStep type="restrequest" name="Update" id="1aaf10ce-1f43-412b-82c8-86b241f46e39"><con:settings/><con:config service="https://reqres.in" resourcePath="" methodName="Input 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Update" id="8c99b27d-37fa-4f8c-9387-43dcda4e84ae" mediaType="application/x-www-form-urlencoded" postQueryString="true"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://reqres.in/api/users/{Input}</con:endpoint><con:request>{
+    "name": "abc",
+    "job": "zion resident"
+}</con:request><con:originalUri>https://reqres.in/api/users/Input</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="job " value="${Properties#job}"/>
+  <con:entry key="name" value="${Properties#name}"/>
+</con:parameters><con:parameterOrder><con:entry>name</con:entry><con:entry>job </con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="properties" name="Properties" id="fd350a35-a1f6-4fe7-8aca-891fdfc6c0cb"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>name</con:name><con:value>morpheus</con:value></con:property><con:property><con:name>Job</con:name><con:value>associate</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="groovy" name="Groovy Script" id="f130ed5a-13ce-413a-88df-a266bce15f38"><con:settings/><con:config><script>logArea = com.eviware.soapui.SoapUI.logMonitor.getLogArea( "SoapUI log" )
+
+//## Get TestSuite name ##//
+TSName = testRunner.testCase.testSuite.name
+
+//Get LogFile directory and Construct LogFile
+FileName = TSName + "-SOAPUILogs.txt"
+LogFile = new File(context.expand('${#Project#TestReportPathUpdate}') + FileName)
+
+LogFile.write("Generating Script logs for SOAP UI....\r\n")
+
+if(logArea !=null)
+{
+
+model = logArea.model
+if(model.size > 0) {
+for(c in 0..(model.size-1))
+{
+LogFile.append(model.getElementAt(c).toString() + "\r\n")
+}
+}
+}
+
+ </script></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties><con:property><con:name>TestReportPath</con:name><con:value>C://Users//khand//Desktop//SoapUI//Query//</con:value></con:property><con:property><con:name>TestReportPathpath</con:name><con:value>C://Users//khand//Desktop//SoapUI//path//</con:value></con:property><con:property><con:name>TestReportPathAdd</con:name><con:value>C://Users//khand//Desktop//SoapUI//Add//</con:value></con:property><con:property><con:name>TestReportPathUpdate</con:name><con:value>C://Users//khand//Desktop//SoapUI//Update//</con:value></con:property></con:properties><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
